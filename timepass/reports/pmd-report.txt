@@ -1,0 +1,92 @@
+src/timepass/GoogleResults.java:5:	Comment is too large: Line too long
+src/timepass/GoogleResults.java:17:	Avoid unused imports such as 'org.jsoup.nodes.Element'
+src/timepass/GoogleResults.java:20:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/timepass/GoogleResults.java:20:	headerCommentRequirement Required
+src/timepass/GoogleResults.java:22:	fieldCommentRequirement Required
+src/timepass/GoogleResults.java:24:	Parameter 'args' is not assigned and could be declared final
+src/timepass/GoogleResults.java:24:	publicMethodCommentRequirement Required
+src/timepass/GoogleResults.java:27:	Avoid variables with short names like pw
+src/timepass/GoogleResults.java:27:	Found 'DD'-anomaly for variable 'pw' (lines '27'-'80').
+src/timepass/GoogleResults.java:27:	Found 'DU'-anomaly for variable 'pw' (lines '27'-'107').
+src/timepass/GoogleResults.java:28:	Local variable 'outputFolder' could be declared final
+src/timepass/GoogleResults.java:29:	Found 'DD'-anomaly for variable 'output' (lines '29'-'72').
+src/timepass/GoogleResults.java:29:	Found 'DU'-anomaly for variable 'output' (lines '29'-'107').
+src/timepass/GoogleResults.java:30:	Found 'DU'-anomaly for variable 'fileName' (lines '30'-'107').
+src/timepass/GoogleResults.java:30:	Local variable 'fileName' could be declared final
+src/timepass/GoogleResults.java:32:	Local variable 'scanner' could be declared final
+src/timepass/GoogleResults.java:34:	System.out.println is used
+src/timepass/GoogleResults.java:35:	Local variable 'searchTerm' could be declared final
+src/timepass/GoogleResults.java:37:	System.out.println is used
+src/timepass/GoogleResults.java:39:	Found 'DD'-anomaly for variable 'num' (lines '39'-'40').
+src/timepass/GoogleResults.java:43:	System.out.println is used
+src/timepass/GoogleResults.java:45:	Local variable 'searchURL' could be declared final
+src/timepass/GoogleResults.java:47:	Local variable 'doc' could be declared final
+src/timepass/GoogleResults.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/GoogleResults.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/GoogleResults.java:54:	Local variable 'results' could be declared final
+src/timepass/GoogleResults.java:56:	Avoid variables with short names like rs
+src/timepass/GoogleResults.java:56:	Local variable 'rs' could be declared final
+src/timepass/GoogleResults.java:57:	System.out.println is used
+src/timepass/GoogleResults.java:60:	Local variable 'dir' could be declared final
+src/timepass/GoogleResults.java:62:	Local variable 'success' could be declared final
+src/timepass/GoogleResults.java:63:	Avoid unnecessary comparisons in boolean expressions
+src/timepass/GoogleResults.java:66:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/timepass/GoogleResults.java:66:	Avoid using exceptions as flow control.
+src/timepass/GoogleResults.java:67:	Avoid printStackTrace(); use a logger call instead.
+src/timepass/GoogleResults.java:77:	Avoid printStackTrace(); use a logger call instead.
+src/timepass/GoogleResults.java:84:	Local variable 'linkHref' could be declared final
+src/timepass/GoogleResults.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/GoogleResults.java:85:	Local variable 'linkText' could be declared final
+src/timepass/GoogleResults.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/GoogleResults.java:86:	Comment is too large: Line too long
+src/timepass/GoogleResults.java:87:	Comment is too large: Line too long
+src/timepass/GoogleResults.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/timepass/GoogleResults.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/timepass/GoogleResults.java:88:	String.indexOf(char) is faster than String.indexOf(String).
+src/timepass/GoogleResults.java:92:	Avoid printStackTrace(); use a logger call instead.
+src/timepass/MetaSearchEngine.java:5:	Comment is too large: Line too long
+src/timepass/MetaSearchEngine.java:17:	Avoid unused imports such as 'org.jsoup.nodes.Element'
+src/timepass/MetaSearchEngine.java:20:	headerCommentRequirement Required
+src/timepass/MetaSearchEngine.java:21:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/timepass/MetaSearchEngine.java:23:	Avoid excessively long variable names like DATACITE_META_SEARCH_URL
+src/timepass/MetaSearchEngine.java:23:	fieldCommentRequirement Required
+src/timepass/MetaSearchEngine.java:25:	Comment is too large: Line too long
+src/timepass/MetaSearchEngine.java:27:	Parameter 'args' is not assigned and could be declared final
+src/timepass/MetaSearchEngine.java:27:	publicMethodCommentRequirement Required
+src/timepass/MetaSearchEngine.java:29:	Avoid variables with short names like pw
+src/timepass/MetaSearchEngine.java:29:	Found 'DD'-anomaly for variable 'pw' (lines '29'-'84').
+src/timepass/MetaSearchEngine.java:29:	Found 'DU'-anomaly for variable 'pw' (lines '29'-'106').
+src/timepass/MetaSearchEngine.java:30:	Local variable 'outputFolder' could be declared final
+src/timepass/MetaSearchEngine.java:31:	Found 'DD'-anomaly for variable 'output' (lines '31'-'76').
+src/timepass/MetaSearchEngine.java:31:	Found 'DU'-anomaly for variable 'output' (lines '31'-'106').
+src/timepass/MetaSearchEngine.java:32:	Found 'DU'-anomaly for variable 'fileName' (lines '32'-'106').
+src/timepass/MetaSearchEngine.java:32:	Local variable 'fileName' could be declared final
+src/timepass/MetaSearchEngine.java:34:	Local variable 'scanner' could be declared final
+src/timepass/MetaSearchEngine.java:36:	System.out.println is used
+src/timepass/MetaSearchEngine.java:37:	Local variable 'searchTerm' could be declared final
+src/timepass/MetaSearchEngine.java:39:	System.out.println is used
+src/timepass/MetaSearchEngine.java:41:	Found 'DD'-anomaly for variable 'num' (lines '41'-'42').
+src/timepass/MetaSearchEngine.java:45:	System.out.println is used
+src/timepass/MetaSearchEngine.java:48:	Local variable 'searchURL' could be declared final
+src/timepass/MetaSearchEngine.java:50:	Local variable 'doc' could be declared final
+src/timepass/MetaSearchEngine.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/MetaSearchEngine.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/MetaSearchEngine.java:53:	System.out.println is used
+src/timepass/MetaSearchEngine.java:57:	Comment is too large: Line too long
+src/timepass/MetaSearchEngine.java:58:	Local variable 'results' could be declared final
+src/timepass/MetaSearchEngine.java:59:	Avoid variables with short names like rs
+src/timepass/MetaSearchEngine.java:59:	Local variable 'rs' could be declared final
+src/timepass/MetaSearchEngine.java:60:	System.out.println is used
+src/timepass/MetaSearchEngine.java:64:	Local variable 'dir' could be declared final
+src/timepass/MetaSearchEngine.java:66:	Local variable 'success' could be declared final
+src/timepass/MetaSearchEngine.java:67:	Avoid unnecessary comparisons in boolean expressions
+src/timepass/MetaSearchEngine.java:70:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/timepass/MetaSearchEngine.java:70:	Avoid using exceptions as flow control.
+src/timepass/MetaSearchEngine.java:71:	Avoid printStackTrace(); use a logger call instead.
+src/timepass/MetaSearchEngine.java:81:	Avoid printStackTrace(); use a logger call instead.
+src/timepass/MetaSearchEngine.java:89:	Local variable 'linkHref' could be declared final
+src/timepass/MetaSearchEngine.java:89:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/MetaSearchEngine.java:90:	Local variable 'linkText' could be declared final
+src/timepass/MetaSearchEngine.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/timepass/MetaSearchEngine.java:91:	System.out.println is used
+src/timepass/MetaSearchEngine.java:101:	Avoid printStackTrace(); use a logger call instead.

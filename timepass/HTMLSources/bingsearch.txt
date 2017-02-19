@@ -1,0 +1,10 @@
+public static final String BING_SEARCH_URL = "https://www.bing.com/search";
+
+String searchURL = BING_SEARCH_URL + "?q=" + word + "&count=" + num;
+    Document doc = Jsoup.connect(searchURL).userAgent("Mozilla/5.0").get();
+    Elements result = doc.select("li.b_algo h2 a");
+    for (Element res : result) {
+        String linkHref = res.attr("href");
+        //linkHref = linkHref.substring(7, linkHref.indexOf("&")); //No need of doing substring 
+        System.out.println("<a href=" + linkHref + ">" + linkHref + "</a>");
+    }
